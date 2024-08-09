@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Book Management System | Julia Johnson</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+          <div class="container">
+            <h1 class="logo">J&J</h1>
+              <ul>
+                <li><a class="current">Library Book Management System</a></li>
+                <li><a href="movie.html">Movie Rating System</a></li>
+              </ul>
+          </div>
+        </nav>
+        </div>
+    </header>
+    <div class = "container">
+    <h1>Library Book Management System</h1>
+    <form id="book-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" required>
+        <label for="author">Author:</label>
+        <input type="text" id="author" required>
+        <label for="isbn">ISBN:</label>
+        <input type="text" id="isbn" required>
+        <button type="submit">Add Book</button>
+    </form>
+    <div id="book-list">
+        <h2>Book List</h2>
+        <ul id="books"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
